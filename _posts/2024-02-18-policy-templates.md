@@ -69,6 +69,11 @@ By default, the BIG-IP ASM system is case-sensitive; however, to reduce the chan
 
 While most web applications do not treat URIs with case sensitivity, some do. In such applications, example.html and Example.html may access different web pages, each with their own associated content, parameters and security access controls. In such cases, enabling case sensitivity is required.
 
+#### Demo Poicy Templates (LAB)
 
-
+- Security > Application Security > Security Polices > Policies List 
+- Create New Policy 
+  - Policy Name : 
+  - Policy Type : Security (Standalone Policy) , Parent 
+  - Policy Template 
 
