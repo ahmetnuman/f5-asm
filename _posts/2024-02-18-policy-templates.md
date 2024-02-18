@@ -47,6 +47,27 @@ Note : Rapid Deployment Poicy uses maneal policy building, Fundamental and Compr
 - Enable ASM 
 - Assign a security policy
 
+#### Policy Building 
+
+- Manual 
+- Automatic
+
+#### Rapid Deployment
+
+- Manual 
+- Admin interprets events and learinig suggestions and takes action
+
+#### Fundamental and Comprehensive (Passive)
+
+- Automatic 
+- ASM interprets events and learingn suugestions and takes action 
+- Passive = ASM takes no action / impact on traffic
+
+#### Disabling Case Sensitivity in Policies
+
+By default, the BIG-IP ASM system is case-sensitive; however, to reduce the chance of false positives, F5 recommends that you create policies with case sensitivity disabled.
+
+While most web applications do not treat URIs with case sensitivity, some do. In such applications, example.html and Example.html may access different web pages, each with their own associated content, parameters and security access controls. In such cases, enabling case sensitivity is required.
 
 
 
